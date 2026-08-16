@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{int num,result = 1;
+    printf("enter a num to get its fact! :");
+    scanf("%d",&num);
+     if(num == 0 || num ==1){
+         printf("fact is 1");
+    }for(int i = 1;i<=num;i++){
+           result *= i;}
+    printf("%d: is the fact of %d",result,num);
+}
