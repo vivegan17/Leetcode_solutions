@@ -9,7 +9,5 @@ class Solution(object):
         return True
       else :
         return False
-x = 121
-soln=Solution()
 soln.isPalindrome(x)
         
